@@ -19,3 +19,10 @@ We will take entries + exits to measure traffic.
 
 We will use total traffic data as a proxy for how popular an area is.
 We will make recommendations for food vendor placement from this data.
+
+Step 1, clean the data:
+
+- create a Pandas Dataframe
+- add a turnstyle delta column
+- filter out times that are outside of 12:00am - 4:00am
+- create a histogram for each day 
