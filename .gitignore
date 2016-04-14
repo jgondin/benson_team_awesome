@@ -1,0 +1,25 @@
+.DS_Store
+
+# Virtual Env
+env/
+
+# Working Files - not ready to be shared
+local/
+local*
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+#Ipython Notebook
+.ipynb_checkpoints
+
+# C extensions
+*.so
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+
